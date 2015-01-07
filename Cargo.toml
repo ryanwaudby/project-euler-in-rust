@@ -1,0 +1,7 @@
+[package]
+name = "projet_euler_in_rust"
+version = "0.0.1"
+authors = ["Ryan Waudby <ryan@ryanwaudby.co.uk>"]
+
+[[bin]]
+name = "problem_2"
