@@ -1,12 +1,18 @@
 fn main() {
-    let mut first = 1;
-    let mut second = 2;
-    let mut total_of_evens_fibs = 2;
+    let mut i = 1;
+    let mut j = 2;
+    let mut total = 2;
 
-    while first + second <= 4000000 {
-        let next = first + second;
-        if next % 2 == 0 { total_of_evens_fibs += next; }
-        first = second; second = next;
+    while i + j <= 4000000 {
+        let next = i + j;
+
+        if next % 2 == 0 {
+            total += i + j;
+        }
+
+        i = j;
+        j = next;
     }
-    println!("{}", total_of_evens_fibs);
+
+    println!("{}", total);
 }
