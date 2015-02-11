@@ -4,4 +4,10 @@ version = "0.0.1"
 authors = ["Ryan Waudby <ryan@ryanwaudby.co.uk>"]
 
 [[bin]]
-name = "problem_2"
+name = "problem_001"
+
+[[bin]]
+name = "problem_002"
+
+[[bin]]
+name = "problem_003"
